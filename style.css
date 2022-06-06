@@ -17,15 +17,15 @@ body{
 
 .wrapper{
     background-color: #fff;
-    width: 640px;
-    height: 264px;
-    margin: 250px 400px;
+    margin: 344px 400px;
     text-align: center;
     border-radius: 4px;
+    font-family: 'Sora', sans-serif;
 }
 
-.input-group{
-    font-family: 'Sora', sans-serif;
+.wrapper-group{
+    width: 640px;
+    height: 264px;
 }
 
 .group_heading{
@@ -36,10 +36,14 @@ body{
 }
 
 .group_text{
-    text-align: left;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+}
+
+.text_phone{
+    text-align: left;
     margin-top: 16px;
     margin-bottom: 8px;
 }
@@ -76,4 +80,16 @@ body{
     line-height: 25px;
     letter-spacing: 1px;
     color: #fff;
+}
+
+/*MegaStore-cod*/
+
+.wrapper-cod{
+    width: 640px;
+    height: 328px;
+}
+
+.text_cod{
+    text-align: center;
+    color: #a9a9a9;
 }
