@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 640px;
+    height: 264px;
+    margin: 250px 400px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.input-group{
+    font-family: 'Sora', sans-serif;
+}
+
+.group_heading{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+.group_text{
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.input-group{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.input-group input{
+    width: 608px;
+    height: 48px;
+    border: 0.5px solid #dadada;
+    border-radius: 4px;
+}
+
+.form_control{
+    padding-left: 16px;
+}
+.button-group{
+    margin-top: 16px;
+}
+
+.button-group button{
+    width: 384px;
+    height: 48px;
+    background-color: #232529;
+    border-radius: 4px;
+}
+
+.button-group a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+}
