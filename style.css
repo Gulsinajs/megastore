@@ -21,8 +21,9 @@ body{
     text-align: left;
     border-radius: 4px;
     font-family: 'Sora', sans-serif;
-    width: 100%;
+    width: 768px;
     height: 100vh;
+    margin-top: 250px;
 }
 
 .group_heading{
@@ -30,7 +31,7 @@ body{
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 264px;
+    padding-top: 264px;
 }
 
 .group_text{
@@ -50,25 +51,25 @@ body{
     margin-left: 16px;
     margin-right: 16px;
 }
+
 .input-group input{
-    width: 608px;
+    width: 328px;
     height: 48px;
     border: 0.5px solid #dadada;
     border-radius: 4px;
 }
 
-.form_control{
-    padding-left: 16px;
-}
-.first_group{
-    margin-top: 16px;
+.button-group{
+    display: flex;
+    justify-content: center;
 }
 
 .button-group button{
-    width: 384px;
+    width: 328px;
     height: 48px;
     background-color: #232529;
     border-radius: 4px;
+    margin-top: 16px;
 }
 
 .button-group a{
@@ -174,3 +175,8 @@ input{
     opacity: 0.5;
 }
 
+@media (max-width: 390px) {
+    .wrapper{
+        width: 100%;
+    }
+}
