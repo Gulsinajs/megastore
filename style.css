@@ -21,11 +21,8 @@ body{
     text-align: left;
     border-radius: 4px;
     font-family: 'Sora', sans-serif;
-}
-
-.wrapper-group{
-    width: 640px;
-    height: 700px;
+    width: 100%;
+    height: 100vh;
 }
 
 .group_heading{
