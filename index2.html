@@ -9,33 +9,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper wrapper-form">
-        <form action="#">
-                <h1 class="group_heading">Анкета  для корпоративных клиентов</h1>
-                <p class="group_text text_info">Личные данные</p>
-                <input tabindex="1" class="form_name" type="surname" placeholder="Фамилия">
-                <input tabindex="2" class="form_name" type="name" placeholder="Имя">
-                <input tabindex="3" class="form_name" type="middlename" placeholder="Отчество ">
-                <p class="group_text text_info">Паспортные данные</p>
-            <div class="input-form">
-                <input tabindex="4" class="form_desc desc_birthday" name="birthday" type="date" placeholder="Дата рождения">
-                <input tabindex="5" class="form_address" type="text" placeholder="Место проживания по прописке"><br>
-                <input tabindex="6" class="form_desc desc_information" type="text" placeholder="Серийный номер AN/ID">
-                <input tabindex="7" class="form_desc desc_information" type="number" placeholder="ИНН">
-                <input tabindex="8" class="form_desc desc_information" type="date" placeholder="Дата получения"><br>
-                <input tabindex="9" class="form_desc desc_information" type="tel" placeholder="Контактный номер">
-                <input tabindex="10" class="form_desc desc_information" type="text" placeholder="Электронный адрес">
-                <select tabindex="11" class="form_desc desc_information" name="bank" id="">
-                    <option value="selected">Наименование банка</option>
-                    <option value="kicb">KICB</option>
-                    <option value="Optima bank">Optima bank</option>
-                </select><br>
-                <input tabindex="12" class="form_address factual_address" type="text" placeholder="Фактическое место проживания">
-            </div>
-            <div class="button-group second_button">
-                <button><a href="#">Далее</a></button>
-            </div>
-        </form>
-    </div>
+<div class="wrapper wrapper-form">
+    <form action="#">
+        <h1 class="group_heading">Анкета для корпоративных клиентов</h1>
+        <p class="group_text text_info">Личные данные</p>
+        <div class="input-flex">
+            <input tabindex="1" class="form_name" name="surname" type="text" placeholder="Фамилия">
+            <input tabindex="2" class="form_name" name="username" type="text" placeholder="Имя">
+            <input tabindex="3" class="form_name" name="patronymic" type="text" placeholder="Отчество">
+        </div>
+        <p class="group_text text_post">Паспортные данные</p>
+        <div class="input-flex">
+            <input tabindex="4" class="form_desc desc_birthday" name="birthday" type="date"
+                   placeholder="Дата рождения">
+            <input tabindex="5" class="form_address" type="text" placeholder="Место проживания по прописке">
+        </div>
+        <div class="input-flex">
+            <input tabindex="6" class="form_desc desc_information" type="text" placeholder="Серийный номер AN/ID">
+            <input tabindex="7" class="form_desc desc_information" type="number" placeholder="ИНН">
+            <input tabindex="8" class="form_desc desc_date" type="date" placeholder="Дата получения">
+        </div>
+        <div class="input-flex">
+            <input tabindex="9" class="form_desc desc_information" type="tel" placeholder="Контактный номер">
+            <input tabindex="10" class="form_desc desc_information" type="text" placeholder="Электронный адрес">
+            <select tabindex="11" class="form_desc desc_information" name="bank" id="">
+                <option value="selected">Наименование банка</option>
+                <option value="bank">KICB</option>
+                <option value="Optima bank">Optima bank</option>
+            </select>
+        </div>
+        <div class="input-flex">
+            <input tabindex="12" class="form_address factual_address" type="text"
+                   placeholder="Фактическое место проживания">
+        </div>
+        <div class="button-group second_button">
+            <button><a href="#">Далее</a></button>
+        </div>
+    </form>
+</div>
 </body>
 </html>
