@@ -11,36 +11,38 @@
 <body>
 <div class="wrapper wrapper-form">
     <form action="#">
-        <h1 class="group_heading">Анкета для корпоративных клиентов</h1>
-        <p class="group_text text_info">Личные данные</p>
-        <div class="input-flex">
-            <input tabindex="1" class="form_name" name="surname" type="text" placeholder="Фамилия">
-            <input tabindex="2" class="form_name" name="username" type="text" placeholder="Имя">
-            <input tabindex="3" class="form_name" name="patronymic" type="text" placeholder="Отчество">
+        <div class="desc">
+        <h1 class="desc_profile">Анкета для корпоративных клиентов</h1>
+        <p class="desc_details">Личные данные</p>
         </div>
-        <p class="group_text text_post">Паспортные данные</p>
         <div class="input-flex">
+            <p>Фамилия</p>
+            <input tabindex="1" class="form_name" name="surname" type="text" placeholder="Иванов">
+        </div>
+        <div class="input-flex">
+            <p>Имя</p>
+            <input tabindex="2" class="form_name" name="username" type="text" placeholder="Иван">
+        </div>
+        <div class="input-flex">
+            <p>Отчество</p>
+            <input tabindex="3" class="form_name" name="patronymic" type="text" placeholder="Иванович">
+        </div>
+        <div class="input-flex">
+            <p>Дата рождения</p>
             <input tabindex="4" class="form_desc desc_birthday" name="birthday" type="date"
-                   placeholder="Дата рождения">
-            <input tabindex="5" class="form_address" type="text" placeholder="Место проживания по прописке">
+                   placeholder="12.12.2021">
         </div>
         <div class="input-flex">
-            <input tabindex="6" class="form_desc desc_information" type="text" placeholder="Серийный номер AN/ID">
-            <input tabindex="7" class="form_desc desc_information" type="number" placeholder="ИНН">
-            <input tabindex="8" class="form_desc desc_date" type="date" placeholder="Дата получения">
+            <p>Фактическое место проживания</p>
+            <input tabindex="5" class="form_address" type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
         </div>
         <div class="input-flex">
-            <input tabindex="9" class="form_desc desc_information" type="tel" placeholder="Контактный номер">
-            <input tabindex="10" class="form_desc desc_information" type="text" placeholder="Электронный адрес">
-            <select tabindex="11" class="form_desc desc_information" name="bank" id="">
-                <option value="selected">Наименование банка</option>
-                <option value="bank">KICB</option>
-                <option value="Optima bank">Optima bank</option>
-            </select>
+            <p>Контактный номер</p>
+            <input tabindex="6" class="form_desc desc_information" type="tel" placeholder="+996 555 000 000">
         </div>
         <div class="input-flex">
-            <input tabindex="12" class="form_address factual_address" type="text"
-                   placeholder="Фактическое место проживания">
+            <p>Электронный адрес</p>
+            <input tabindex="10" class="form_desc desc_information" type="text" placeholder="ivanov@mail.ru">
         </div>
         <div class="button-group second_button">
             <button><a href="#">Далее</a></button>
