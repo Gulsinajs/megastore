@@ -22,13 +22,11 @@ body{
 }
 
 .wrapper{
+    display: flex;
     background-color: #fff;
-    margin: 250px 400px;
-    text-align: left;
-    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
     font-family: 'Sora', sans-serif;
-    width: 768px;
-    height: 100vh;
 }
 
 .group_heading{
@@ -40,10 +38,10 @@ body{
 }
 
 .group_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
 }
 
 .text_phone{
